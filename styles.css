@@ -1,0 +1,333 @@
+/* Preloader */
+
+#preloader{
+    text-align: Center;
+    padding: 10%;
+    height: 100vh;
+    widht: 100%;
+    background-color: #000;
+}
+
+.image-preloader{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+
+.preloader-text{
+  color: #00ADB5;
+  margin: 1.5px;
+  font-family: 'Licorice', cursive;
+  display: inline;
+}
+
+.w{
+  color: red;
+}
+
+.x{
+  color: #A6B1E1;
+}
+
+.body{
+  background-color: black;
+}
+
+/* General CSS applied to tags */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #DCD6F7;
+}
+
+p{
+  color: #71C9CE;
+}
+
+/* Title section CSS */
+
+#title{
+  color: #93DEFF;
+  background-color: #000000;
+}
+
+.container-fluid{
+  padding: 3% 3% 7% 10%;
+}
+
+.head2{
+  color: #A6B1E1;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+}
+
+.head{
+  font-family: 'Licorice', cursive;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #93DEFF;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+width: 200px;
+position: relative;
+left: 200px;
+bottom: 20px;
+}
+
+/*About Me  Section */
+
+#aboutMe{
+  padding: 7% 15%;
+  background-color: #393E46;
+  position: relative;
+}
+
+.aboutMe-head{
+  font-family: "Montserrat-Bold";
+  color: #DFF6FF;
+}
+
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+
+.aboutMe-bighead{
+  text-align: center;
+  font-family: 'Montserrat-bold';
+  color: #fff;
+}
+
+.content-aboutMe{
+  color:#A6B1E1;
+}
+
+.icon{
+  color: #71C9CE;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #EEEEEE;
+}
+
+.loveLine{
+  color: #5B4B8A;
+  font-family:  'Licorice', cursive;
+  text-align: center;
+}
+
+.paragraph-aboutMe{
+  color: #DCD6F7;
+  text-align: center;
+}
+
+/* Skills section */
+
+.animation{
+  width: 100%;
+}
+
+.animation img:nth-child(1){
+  animation-delay: 1s;
+}
+
+.animation img:nth-child(2){
+  animation-delay: 1.75s;
+}
+
+.animation img:nth-child(3){
+  animation-delay: 3.25s;
+}
+
+.animation img:nth-child(4){
+  animation-delay: 4.5s;
+}
+
+.animation img:nth-child(5){
+  animation-delay: 6s;
+}
+.animation img:nth-child(6){
+  animation-delay: 7s;
+}
+
+.imgskills{
+  width: 5%;
+  margin: 20px 20px 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 1px;
+  animation: animation 7s linear infinite;
+}
+
+@keyframes animation {
+   0%{
+     transform: translateY(0);
+     opacity: 0;
+   }
+   50%{
+     opacity: 1;
+   }
+   70%{
+     opacity: 1;
+   }
+  100%{
+     transform: translateY(-80vh);
+     opacity: 0;
+   }
+
+}
+
+
+
+#skills{
+  background-color: #000000;
+  padding: 100px;
+}
+
+.exagerate{
+  text-align: center;
+}
+
+.heading-skills{
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat-bold';
+}
+
+.pricing-card{
+  padding: 3% 2%;
+}
+
+/* Projects */
+
+.heading-projects{
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat-bold'
+}
+
+#projects{
+  text-align: center;
+  background-color: #393E46;
+  padding-top: 7%;
+}
+
+
+.project-image{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+#press{
+  background-color: #393E46;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* cta section */
+
+#cta{
+  background-color: #000000;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.author{
+  color: #FF0000;
+  text-align: right;
+  font-family: 'Licorice', cursive;
+}
+
+.cta-text{
+  color: #fff;
+  font-family: "Montserrat-black";
+}
+
+/* footer section */
+
+#footer{
+  background-color: #393E46;
+  padding: 7% 15%;
+  text-align: center;
+}
+.icons{
+  margin: 1.5%;
+  color: #000000;
+}
+
+.icons:hover{
+  color: #FF06B7;
+}
+
+.footer-text{
+  color: #F73D93;
+  font-family: 'Licorice', cursive;
+  font-size: 1.5rem;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+  }
+}
+
+@media (max-width: 990px){
+  #skills{
+    text-align: center;
+  }
+}
